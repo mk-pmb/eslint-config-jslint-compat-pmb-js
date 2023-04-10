@@ -1,0 +1,39 @@
+{ "name": "eslint-config-jslint-compat-pmb",
+  "version": "0.3.5001",
+  "description": "Adapting my favorite eslint rules to be compatible with ancient jslint.",
+  "keywords": [
+    "eslin",
+    "jslint"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/eslint-config-jslint-compat-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/eslint-config-jslint-compat-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/eslint-config-jslint-compat-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "rules.js",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5"
+  },
+  "devDependencies": {
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.13"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
